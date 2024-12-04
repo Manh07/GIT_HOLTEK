@@ -1,0 +1,56 @@
+
+Linker Version 8.7.7.190806
+Input Object File: C:\Users\Admin\Documents\GitHub\GIT_HOLTEK\Test\TEST.OBJ
+Input Object File: C:\Users\Admin\Documents\GitHub\GIT_HOLTEK\Test\STARTUP1.OBJ
+
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_srsc.lib
+
+
+     Start     End      Length     Class    AvgIns    Name
+     0000h     0000h    0001h      CODE               @code (C:\Users\Admin\Documents\GitHub\GIT_HOLTEK\Test\TEST.OBJ)
+     0001h     0001h    0001h      CODE               @start (C:\Users\Admin\Documents\GitHub\GIT_HOLTEK\Test\TEST.OBJ)
+     0002h     0016h    0015h      CODE               __delay_ms (C:\Users\Admin\Documents\GitHub\GIT_HOLTEK\Test\TEST.OBJ)
+     0017h     002ah    0014h      CODE               _main (C:\Users\Admin\Documents\GitHub\GIT_HOLTEK\Test\TEST.OBJ)
+     0040h     0040h    0001h      DATA     3         @data_ra (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+
+     Local Sections
+
+     Start     End      Length     Class    AvgIns    Name
+     0045h     0045h    0000h      LOCAL    0         @dummy (C:\Users\Admin\Documents\GitHub\GIT_HOLTEK\Test\TEST.OBJ)
+     0045h     0045h    0000h      LOCAL    0         _main (C:\Users\Admin\Documents\GitHub\GIT_HOLTEK\Test\TEST.OBJ)
+     0041h     0044h    0004h      LOCAL    4         __delay_ms (C:\Users\Admin\Documents\GitHub\GIT_HOLTEK\Test\TEST.OBJ)
+
+     Public Symbols Information
+     Address            Public by Name
+     0002h              __delay_ms
+     0041h              __delay_ms_2
+     0017h              _main
+     0040h              ra
+
+     Address            Public by Value
+     0002h              __delay_ms
+     0017h              _main
+     0040h              ra
+     0041h              __delay_ms_2
+
+
+ROM Usage Statistics
+     Size      Used     Percentage
+     0400h     002bh    4%
+
+RAM Usage Statistics
+     Size      Used     Percentage
+     0040h     0005h    7%
+
+Use Stack Count
+_main: 1
+
+Call Tree
+    @dummy
+        _main (0)
+            __delay_ms (1)
+
+HLINK: Program entry point at section '@code' (address 0) of file 'C:\Users\Admin\Documents\GitHub\GIT_HOLTEK\Test\TEST.OBJ'
+
+Total 0 error(s), Total 0 Warning(s)
