@@ -1,0 +1,13 @@
+*.uvguix.*
+*.build_log.htm
+*.axf
+*.htm
+*.lnp
+*.map
+*.sct
+*.dep
+*.hex
+*.o
+*.crf
+*.d
+*.lst
